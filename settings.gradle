@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name = "OKOKOK"
+
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('D:\\OKOKOK\\unityLibrary')
